@@ -97,7 +97,6 @@ def draw?(board)
   end
 end
 
-
 ##Build a method #over? that accepts a board and returns true if the board has been won, is a draw, or is full.
 def over?(board)
     w = won?(board)
