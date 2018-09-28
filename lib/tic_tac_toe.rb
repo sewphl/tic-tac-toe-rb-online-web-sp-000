@@ -119,6 +119,6 @@ def play(board)
   if iwon != false
     puts "Congratulations #{iwon}!"
   elsif draw?(board)
-    return "Cat's Game!"
+    print "Cat's Game!"
   end
 end
