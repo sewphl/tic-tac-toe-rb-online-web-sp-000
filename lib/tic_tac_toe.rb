@@ -90,11 +90,13 @@ end
 
 #Build a method #draw? that accepts a board and returns true if the board has not been won but is full,
 ##false if the board is not won and the board is not full, and false if the board is won.
+=begin
 def draw?(board)
   if !won?(board) && full?(board)
     return true
   end
 end
+=end
 
 ##Build a method #over? that accepts a board and returns true if the board has been won, is a draw, or is full.
 def over?(board)
